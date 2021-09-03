@@ -1,6 +1,6 @@
 ﻿namespace FinalLaboratorio2
 {
-    partial class Login
+    partial class FLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -75,20 +75,20 @@
             this.btnIngresar.TabIndex = 4;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // Login
+            // FLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 349);
+            this.ClientSize = new System.Drawing.Size(343, 357);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.lblContrasena);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
-            this.Name = "Login";
-            this.Text = "Inicio";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "FLogin";
+            this.Text = "Inicio de Sesion";
             this.ResumeLayout(false);
             this.PerformLayout();
 

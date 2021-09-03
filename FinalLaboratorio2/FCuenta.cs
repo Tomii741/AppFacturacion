@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace FinalLaboratorio2
 {
-    public partial class Login : Form
+    public partial class FCuenta : Form
     {
-        public Login()
+        public FCuenta()
         {
             InitializeComponent();
+            Text = "Bienvenido Tomas";
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
